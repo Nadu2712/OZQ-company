@@ -114,7 +114,7 @@
                     <div class ="col-md-2 "> </div>
                     <div class ="col-md-6 ">
 
-                        <asp:Button ID="btnLogin" CssClass ="btn btn-success " runat="server" Text="Login&raquo;"  />
+                        <asp:Button ID="btnLogin" CssClass ="btn btn-success " runat="server" Text="Login&raquo;" OnClick="btnLogin_Click"  />
                         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/SignUp.aspx">Sign Up</asp:HyperLink>
                     </div>
                 </div>
