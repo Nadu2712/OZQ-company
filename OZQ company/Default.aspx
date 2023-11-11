@@ -109,6 +109,7 @@
                         <div class="carousel-caption">
                             <h3>Electronic device shoppping</h3>
                             <p>
+                                <a class="btn btn-lg btn-primary" href="Products.aspx" role="button">Buy Now</a>
                             </p>
                         </div>
                     </div>
@@ -117,6 +118,7 @@
                         <div class="carousel-caption">
                             <h3>Men Shopping</h3>
                             <p>
+                                <a class="btn btn-lg btn-primary" href="Products.aspx" role="button">Buy Now</a>
                             </p>
                         </div>
                     </div>

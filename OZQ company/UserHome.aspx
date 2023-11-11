@@ -24,6 +24,15 @@
         });
 
     </script>
+    <style>
+        .text-success {
+            color: #28a745; /* Green color */
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            align-content:center;
+        }
+    </style>
 
 </head>
 <body>
@@ -40,7 +49,7 @@
 
                         </button>
                         <a class="navbar-brand" href="UserHome.aspx"><span>
-                            <img src="icons/safeIcons.png" alt="MyEShoppoing" height="30" /></span>MyEShopping </a>
+                            <img src="imgslider/bird_2.jpg" alt="MyEShoppoing" height="30" /></span>OZQCompany </a>
 
                     </div>
                     <div class="navbar-collapse collapse">

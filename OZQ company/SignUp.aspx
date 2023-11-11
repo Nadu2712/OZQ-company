@@ -28,7 +28,7 @@
 
                         </button>
                         <a class="navbar-brand" href="Default.aspx"><span>
-                            <img src="icons/safeIcons.png" alt="MyEShoppoing" height="30" /></span>MyEShopping </a>
+                            <img src="imgslider/bird_2.jpg" alt="MyEShoppoing" height="30" /></span>OZQCompany </a>
 
                     </div>
                     <div class="navbar-collapse collapse">

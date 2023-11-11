@@ -42,7 +42,7 @@
 
                         </button>
                         <a class="navbar-brand" href="UserHome.aspx"><span>
-                            <img src="icons/safeIcons.png" alt="MyEShoppoing" height="30" /></span>MyEShopping </a>
+                            <img src="icons/safeIcons.png" alt="MyEShoppoing" height="30" /></span>OZQCompany </a>
 
                     </div>
                     <div class="navbar-collapse collapse">
@@ -101,14 +101,15 @@
     </form>
     <!---Footer COntents Start here---->
     <hr />
-    <footer>
-        <div class="container ">
-            <p class="pull-right "><a href="#">&nbsp; &nbsp; Back to top &nbsp; &nbsp;</a></p>
-            <p class="pull-right "><a href="AdminHome.aspx">Admin Login  </a></p>
-            <p>&copy;2020 Coderbaba.in &middot; <a href="Default.aspx">Home</a>&middot;<a href="#">About</a>&middot;<a href="#">Contact</a>&middot;<a href="#">Products</a> </p>
-        </div>
+    <footer class="footer-pos">
 
-    </footer>
+            <div class="container ">
+                <p class="pull-right "><a href="#">&nbsp; &nbsp; Back to top &nbsp; &nbsp;</a></p>
+                <p class="pull-right "><a href="AdminHome.aspx">Admin Login  </a></p>
+                <p>&copy;2023 OZQ &middot; <a href="Default.aspx">Home</a>&middot;<a href="#">About</a>&middot;<a href="#">Contact</a>&middot;<a href="#">Products</a> </p>
+            </div>
+
+        </footer>
 
     <!---Footer COntents End---->
 </body>
