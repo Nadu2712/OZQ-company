@@ -67,12 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="AddBrand.aspx" />
     <Content Include="AddCategory.aspx" />
     <Content Include="AddGender.aspx" />
     <Content Include="AddProduct.aspx" />
     <Content Include="AddSize.aspx" />
     <Content Include="AdminHome.aspx" />
+    <Content Include="Cart.aspx" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-reboot.css" />
@@ -80,6 +82,77 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\Custom.css" />
+    <Content Include="EditBrand.aspx" />
+    <Content Include="EditCategory.aspx" />
+    <Content Include="EditSize.aspx" />
+    <Content Include="EditSubCategory.aspx" />
+    <Content Include="Images\ImageNotAvailable.jpg" />
+    <Content Include="Images\Noimg.png" />
+    <Content Include="Images\ProductImages\10\LEVI%27S  Slim Men Blue Jeans01.jpeg" />
+    <Content Include="Images\ProductImages\11\LEVI%27S  Slim Men Blue Jeans01.jpeg" />
+    <Content Include="Images\ProductImages\12\LEVI%27S  Slim Men Blue Jeans01.jpeg" />
+    <Content Include="Images\ProductImages\12\LEVI%27S  Slim Men Blue Jeans02.jpeg" />
+    <Content Include="Images\ProductImages\13\LEVI%27S  Slim Men Blue Jeans01.jpeg" />
+    <Content Include="Images\ProductImages\13\LEVI%27S  Slim Men Blue Jeans02.jpeg" />
+    <Content Include="Images\ProductImages\13\LEVI%27S  Slim Men Blue Jeans03.jpeg" />
+    <Content Include="Images\ProductImages\13\LEVI%27S  Slim Men Blue Jeans04.jpeg" />
+    <Content Include="Images\ProductImages\13\LEVI%27S  Slim Men Blue Jeans05.jpeg" />
+    <Content Include="Images\ProductImages\14\JANstyle Footed Western Wear Legging  %28White, Solid%2901.jpeg" />
+    <Content Include="Images\ProductImages\14\JANstyle Footed Western Wear Legging  %28White, Solid%2902.jpeg" />
+    <Content Include="Images\ProductImages\14\JANstyle Footed Western Wear Legging  %28White, Solid%2903.jpeg" />
+    <Content Include="Images\ProductImages\14\JANstyle Footed Western Wear Legging  %28White, Solid%2904.jpeg" />
+    <Content Include="Images\ProductImages\14\JANstyle Footed Western Wear Legging  %28White, Solid%2905.jpeg" />
+    <Content Include="Images\ProductImages\15\SAARA  Woven, Solid, Plain, Embellished Banarasi Cotton Silk Saree  %28Light Blue%2901.jpeg" />
+    <Content Include="Images\ProductImages\15\SAARA  Woven, Solid, Plain, Embellished Banarasi Cotton Silk Saree  %28Light Blue%2902.jpeg" />
+    <Content Include="Images\ProductImages\15\SAARA  Woven, Solid, Plain, Embellished Banarasi Cotton Silk Saree  %28Light Blue%2903.jpeg" />
+    <Content Include="Images\ProductImages\15\SAARA  Woven, Solid, Plain, Embellished Banarasi Cotton Silk Saree  %28Light Blue%2904.jpeg" />
+    <Content Include="Images\ProductImages\15\SAARA  Woven, Solid, Plain, Embellished Banarasi Cotton Silk Saree  %28Light Blue%2905.jpeg" />
+    <Content Include="Images\ProductImages\1\BESPOQE  Men Regular Fit Solid Casual Shirt01.jpeg" />
+    <Content Include="Images\ProductImages\1\BESPOQE  Men Regular Fit Solid Casual Shirt02.jpeg" />
+    <Content Include="Images\ProductImages\1\BESPOQE  Men Regular Fit Solid Casual Shirt03.jpeg" />
+    <Content Include="Images\ProductImages\1\BESPOQE  Men Regular Fit Solid Casual Shirt04.jpeg" />
+    <Content Include="Images\ProductImages\1\BESPOQE  Men Regular Fit Solid Casual Shirt05.jpeg" />
+    <Content Include="Images\ProductImages\2\HIGHLANDER  Men Slim Fit Checkered Spread Collar Casual Shirt01.jpeg" />
+    <Content Include="Images\ProductImages\2\HIGHLANDER  Men Slim Fit Checkered Spread Collar Casual Shirt02.jpeg" />
+    <Content Include="Images\ProductImages\2\HIGHLANDER  Men Slim Fit Checkered Spread Collar Casual Shirt03.jpeg" />
+    <Content Include="Images\ProductImages\2\HIGHLANDER  Men Slim Fit Checkered Spread Collar Casual Shirt04.jpeg" />
+    <Content Include="Images\ProductImages\2\HIGHLANDER  Men Slim Fit Checkered Spread Collar Casual Shirt05.jpeg" />
+    <Content Include="Images\ProductImages\3\FASHION DEPTH  Women Embroidered Rayon Straight Kurta  %28Pink%2901.jpeg" />
+    <Content Include="Images\ProductImages\3\FASHION DEPTH  Women Embroidered Rayon Straight Kurta  %28Pink%2902.jpeg" />
+    <Content Include="Images\ProductImages\3\FASHION DEPTH  Women Embroidered Rayon Straight Kurta  %28Pink%2903.jpeg" />
+    <Content Include="Images\ProductImages\3\FASHION DEPTH  Women Embroidered Rayon Straight Kurta  %28Pink%2904.jpeg" />
+    <Content Include="Images\ProductImages\3\FASHION DEPTH  Women Embroidered Rayon Straight Kurta  %28Pink%2905.jpeg" />
+    <Content Include="Images\ProductImages\4\Oomph!  Casual Butterfly Sleeve Floral Print Women Multicolor Top01.jpeg" />
+    <Content Include="Images\ProductImages\4\Oomph!  Casual Butterfly Sleeve Floral Print Women Multicolor Top02.jpeg" />
+    <Content Include="Images\ProductImages\4\Oomph!  Casual Butterfly Sleeve Floral Print Women Multicolor Top03.jpeg" />
+    <Content Include="Images\ProductImages\4\Oomph!  Casual Butterfly Sleeve Floral Print Women Multicolor Top04.jpeg" />
+    <Content Include="Images\ProductImages\4\Oomph!  Casual Butterfly Sleeve Floral Print Women Multicolor Top05.jpeg" />
+    <Content Include="Images\ProductImages\5\CLASSIO FASHION  Regular Fit Men Blue Pure Cotton Trousers01.jpeg" />
+    <Content Include="Images\ProductImages\5\CLASSIO FASHION  Regular Fit Men Blue Pure Cotton Trousers02.jpeg" />
+    <Content Include="Images\ProductImages\5\CLASSIO FASHION  Regular Fit Men Blue Pure Cotton Trousers03.jpeg" />
+    <Content Include="Images\ProductImages\5\CLASSIO FASHION  Regular Fit Men Blue Pure Cotton Trousers04.jpeg" />
+    <Content Include="Images\ProductImages\5\CLASSIO FASHION  Regular Fit Men Blue Pure Cotton Trousers05.jpeg" />
+    <Content Include="Images\ProductImages\6\LEVI%27S  Slim Men Blue Jeans01.jpeg" />
+    <Content Include="Images\ProductImages\6\Peter England  Men blue check Casual Shirt01.jpeg" />
+    <Content Include="Images\ProductImages\6\Peter England  Men blue check Casual Shirt02.jpeg" />
+    <Content Include="Images\ProductImages\6\Peter England  Men blue check Casual Shirt03.jpeg" />
+    <Content Include="Images\ProductImages\6\Peter England  Men blue check Casual Shirt04.jpeg" />
+    <Content Include="Images\ProductImages\6\Peter England  Men blue check Casual Shirt05.jpeg" />
+    <Content Include="Images\ProductImages\7\LEVI%27S  Slim Men Blue Jeans01.jpeg" />
+    <Content Include="Images\ProductImages\7\Peter England  Men pink check Casual Shirt01.jpeg" />
+    <Content Include="Images\ProductImages\7\Peter England  Men pink check Casual Shirt02.jpeg" />
+    <Content Include="Images\ProductImages\7\Peter England  Men pink check Casual Shirt03.jpeg" />
+    <Content Include="Images\ProductImages\7\Peter England  Men pink check Casual Shirt04.jpeg" />
+    <Content Include="Images\ProductImages\7\Peter England  Men pink check Casual Shirt05.jpeg" />
+    <Content Include="Images\ProductImages\8\Flying Machine navy blue casual Shirts01.jpeg" />
+    <Content Include="Images\ProductImages\8\Flying Machine navy blue casual Shirts02.jpeg" />
+    <Content Include="Images\ProductImages\8\Flying Machine navy blue casual Shirts03.jpeg" />
+    <Content Include="Images\ProductImages\8\Flying Machine navy blue casual Shirts04.jpeg" />
+    <Content Include="Images\ProductImages\8\Flying Machine navy blue casual Shirts05.jpeg" />
+    <Content Include="Images\ProductImages\8\LEVI%27S  Slim Men Blue Jeans01.jpeg" />
+    <Content Include="Images\ProductImages\9\LEVI%27S  Slim Men Blue Jeans01.jpeg" />
+    <Content Include="Images\Shoes.jpeg" />
+    <Content Include="Images\tshirt.jpeg" />
     <Content Include="Default.aspx" />
     <Content Include="imgslider\bird_2.jpg" />
     <Content Include="imgslider\clothes.jpeg" />
@@ -90,14 +163,32 @@
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="ManDenims.aspx" />
+    <Content Include="ManPants.aspx" />
+    <Content Include="ManShirt.aspx" />
+    <Content Include="Mobile\iphone11.jpeg" />
+    <Content Include="Payment.aspx" />
     <Content Include="Products.aspx" />
+    <Content Include="ProductView.aspx" />
+    <Content Include="Report.aspx" />
     <Content Include="SignIn.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="SubCategory.aspx" />
+    <Content Include="Success.aspx" />
     <Content Include="UserHome.aspx" />
     <Content Include="Web.config" />
+    <Content Include="womanLegging.aspx" />
+    <Content Include="WomanSarees.aspx" />
+    <Content Include="WomanTop.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AddBrand.aspx.cs">
       <DependentUpon>AddBrand.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -147,12 +238,75 @@
     <Compile Include="AdminMasterPage.master.designer.cs">
       <DependentUpon>AdminMasterPage.master</DependentUpon>
     </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditBrand.aspx.cs">
+      <DependentUpon>EditBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditBrand.aspx.designer.cs">
+      <DependentUpon>EditBrand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCategory.aspx.cs">
+      <DependentUpon>EditCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCategory.aspx.designer.cs">
+      <DependentUpon>EditCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditSize.aspx.cs">
+      <DependentUpon>EditSize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditSize.aspx.designer.cs">
+      <DependentUpon>EditSize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditSubCategory.aspx.cs">
+      <DependentUpon>EditSubCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditSubCategory.aspx.designer.cs">
+      <DependentUpon>EditSubCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManDenims.aspx.cs">
+      <DependentUpon>ManDenims.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManDenims.aspx.designer.cs">
+      <DependentUpon>ManDenims.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManPants.aspx.cs">
+      <DependentUpon>ManPants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManPants.aspx.designer.cs">
+      <DependentUpon>ManPants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManShirt.aspx.cs">
+      <DependentUpon>ManShirt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManShirt.aspx.designer.cs">
+      <DependentUpon>ManShirt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Products.aspx.cs">
       <DependentUpon>Products.aspx</DependentUpon>
@@ -161,7 +315,21 @@
     <Compile Include="Products.aspx.designer.cs">
       <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ProductView.aspx.cs">
+      <DependentUpon>ProductView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductView.aspx.designer.cs">
+      <DependentUpon>ProductView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SignIn.aspx.cs">
       <DependentUpon>SignIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -183,6 +351,13 @@
     <Compile Include="SubCategory.aspx.designer.cs">
       <DependentUpon>SubCategory.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Success.aspx.designer.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.master.cs">
       <DependentUpon>User.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -197,6 +372,27 @@
     <Compile Include="UserHome.aspx.designer.cs">
       <DependentUpon>UserHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="womanLegging.aspx.cs">
+      <DependentUpon>womanLegging.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="womanLegging.aspx.designer.cs">
+      <DependentUpon>womanLegging.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WomanSarees.aspx.cs">
+      <DependentUpon>WomanSarees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WomanSarees.aspx.designer.cs">
+      <DependentUpon>WomanSarees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WomanTop.aspx.cs">
+      <DependentUpon>WomanTop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WomanTop.aspx.designer.cs">
+      <DependentUpon>WomanTop.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bootstrap-grid.css.map" />
@@ -210,6 +406,23 @@
     <Content Include="js\bootstrap.js.map" />
     <Content Include="js\bootstrap.min.js.map" />
     <Content Include="AdminMasterPage.master" />
+    <Content Include="Images\ProductImages\3\Peter England  Men Checkered Casual Shirt01" />
+    <Content Include="Images\ProductImages\3\Peter England  Men Checkered Casual Shirt02" />
+    <Content Include="Images\ProductImages\3\Peter England  Men Checkered Casual Shirt03" />
+    <Content Include="Images\ProductImages\3\Peter England  Men Checkered Casual Shirt04" />
+    <Content Include="Images\ProductImages\3\Peter England  Men Checkered Casual Shirt05" />
+    <Content Include="Images\ProductImages\4\Peter England  Men Checkered Casual Shirt01" />
+    <Content Include="Images\ProductImages\4\Peter England  Men Checkered Casual Shirt02" />
+    <Content Include="Images\ProductImages\4\Peter England  Men Checkered Casual Shirt03" />
+    <Content Include="Images\ProductImages\4\Peter England  Men Checkered Casual Shirt04" />
+    <Content Include="Images\ProductImages\4\Peter England  Men Checkered Casual Shirt05" />
+    <Content Include="Images\ProductImages\5\Peter England  Men Solid Formal Shirt01" />
+    <Content Include="Images\ProductImages\5\Peter England  Men Solid Formal Shirt02" />
+    <Content Include="Images\ProductImages\5\Peter England  Men Solid Formal Shirt03" />
+    <Content Include="Images\ProductImages\5\Peter England  Men Solid Formal Shirt04" />
+    <Content Include="Images\ProductImages\5\Peter England  Men Solid Formal Shirt05" />
+    <Content Include="Images\Thumbs.db" />
+    <Content Include="Mobile\Thumbs.db" />
     <None Include="packages.config" />
     <Content Include="User.master" />
     <None Include="Web.Debug.config">
