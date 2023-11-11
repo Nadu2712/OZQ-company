@@ -7,41 +7,42 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
-using System.Globalization;
-using System.Threading;
 
 namespace OZQ_company
 {
-    public partial class UserHome : System.Web.UI.Page
+    public partial class User : System.Web.UI.MasterPage
     {
         public static String CS = ConfigurationManager.ConnectionStrings["OZQCompanyDB"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
-            BindCartNumber22();
             if (Session["Username"] != null)
             {
+                //lblSuccess.Text = "Login Success, Welcome <b>" + Session["Username"].ToString() + "</b>";
                 btnlogout.Visible = true;
                 btnLogin.Visible = false;
-                lblSuccess.Text = "Login Success, Welcome <b>" + Session["Username"].ToString() + "</b>";
+                BindCartNumber22();
                 Button1.Text = "Welcome: " + Session["Username"].ToString().ToUpper();
+
             }
             else
             {
                 btnlogout.Visible = false;
                 btnLogin.Visible = true;
-                Response.Redirect("SignIn.aspx");
-            }
-        }
+                //Response.Redirect("~/Default.aspx");
 
-        protected void btnlogout_Click(object sender, EventArgs e)
-        {
-            Session["Username"] = null;
-            Response.Redirect("~/Default.aspx");
+            }
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/SignIn.aspx");
+        }
+
+        protected void btnlogout_Click(object sender, EventArgs e)
+        {
+            Session["Username"] = null;
+
+            Response.Redirect("Default.aspx");
         }
         public void BindCartNumber()
         {
@@ -78,11 +79,11 @@ namespace OZQ_company
                         {
                             string CartQuantity = dt.Compute("Sum(Qty)", "").ToString();
                             pCount.InnerText = CartQuantity;
+
                         }
                         else
                         {
-                            pCount.InnerText = "0";
-
+                            pCount.InnerText = 0.ToString();
                         }
                     }
                 }
