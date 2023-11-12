@@ -22,7 +22,6 @@ namespace OZQ_company
             {
                 btnlogout.Visible = true;
                 btnLogin.Visible = false;
-                lblSuccess.Text = "Login Success, Welcome <b>" + Session["Username"].ToString() + "</b>";
                 Button1.Text = "Welcome: " + Session["Username"].ToString().ToUpper();
             }
             else

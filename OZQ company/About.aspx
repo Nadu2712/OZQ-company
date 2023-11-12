@@ -65,7 +65,7 @@
             <div class="col-sm-8">
                 <h2>About Company Page</h2>
                 <h4>Developer..</h4>
-                <p>I am geek at heart that loves to learn and play with new technologies. I am grounded with solid object oriented programming principles, but spread my wings across most of the Microsoft product stack: from ASP.NET MVC, WCF, Windows forms, Silverlight, Business Intelligence, PerformancePoint Services, VSTO to SharePoint.</p>
+                <p>I am geek at heart that loves to learn and play with new technologies</p>
                 
                 <asp:Button class="btn btn-default btn-lg" ID="Button1" runat="server"
                     Text="Get in Touch" OnClick="Button1_Click" />
@@ -136,7 +136,7 @@
         <a href="#myPage" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
-        <p>Made By <a href="https://www.youtube.com/coderbaba" title="Visit w3schools">MyShoppingWebsite</a></p>
+        <p>Made By <a href="#" title="Visit w3schools">OZQ Company</a></p>
     </footer>
 
 </asp:Content>

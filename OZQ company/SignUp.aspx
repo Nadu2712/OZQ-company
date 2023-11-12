@@ -13,6 +13,44 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+        .navbar {
+            background-color: #333;
+            border: none;
+            border-radius: 0;
+        }
+
+        .navbar-brand {
+            color: #fff !important;
+        }
+
+        .navbar-nav > li > a {
+            color: #fff !important;
+        }
+
+        .navbar-nav > li.active {
+            background-color: #555;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -55,7 +93,7 @@
 
                             </li>
 
-                            <li class="active"><a href="SignUp.aspx">SignUp</a> </li>
+                            <li class=""><a href="SignUp.aspx">SignUp</a> </li>
                             <li><a href="SignIn.aspx">SignIn</a> </li>
                         </ul>
                     </div>
@@ -105,8 +143,7 @@
 
         <!---Footer COntents Start here---->
         <hr />
-
-        <footer class="footer-pos">
+        <footer>
 
             <div class="container ">
                 <p class="pull-right "><a href="#">&nbsp; &nbsp; Back to top &nbsp; &nbsp;</a></p>

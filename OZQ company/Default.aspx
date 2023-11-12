@@ -26,6 +26,44 @@
         });
 
     </script>
+    <style>
+        .navbar {
+            background-color: #333;
+            border: none;
+            border-radius: 0;
+        }
+
+        .navbar-brand {
+            color: #fff !important;
+        }
+
+        .navbar-nav > li > a {
+            color: #fff !important;
+        }
+
+        .navbar-nav > li.active {
+            background-color: #555;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -46,10 +84,8 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="Default.aspx">Home</a> </li>
+                            <li class=""><a href="Default.aspx">Home</a> </li>
                             <li><a href="#">About</a> </li>
-                            <li><a href="#">Contact US</a> </li>
-                            <li><a href="#">Blog-</a> </li>
                             <li class="drodown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b
                                 class="caret"></b></a>
                                 <ul class="dropdown-menu ">
@@ -81,9 +117,15 @@
                 </div>
             </div>
         </div>
+          <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <!---image slider---->
         <div class="container center">
-            <h2>Carousel Example</h2>
+            <h2>Shop Here !</h2>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">

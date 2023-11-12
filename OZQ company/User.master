@@ -23,6 +23,44 @@
         });
 
     </script>
+    <style>
+        .navbar {
+            background-color: #333;
+            border: none;
+            border-radius: 0;
+        }
+
+        .navbar-brand {
+            color: #fff !important;
+        }
+
+        .navbar-nav > li > a {
+            color: #fff !important;
+        }
+
+        .navbar-nav > li.active {
+            background-color: #555;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -42,15 +80,13 @@
 
                         </button>
                         <a class="navbar-brand" href="UserHome.aspx"><span>
-                            <img src="icons/safeIcons.png" alt="MyEShoppoing" height="30" /></span>OZQCompany </a>
+                            <img src="imgslider/bird_2.jpg" alt="" height="30" /></span>OZQCompany </a>
 
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="UserHome.aspx">Home</a> </li>
                             <li><a href="About.aspx">About</a> </li>
-                            <li><a href="#">Contact US</a> </li>
-                            <%--<li ><a href ="#">Blog-</a> </li>--%>
                             <li class="drodown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
                                 <ul class="dropdown-menu ">
@@ -101,7 +137,7 @@
     </form>
     <!---Footer COntents Start here---->
     <hr />
-    <footer class="footer-pos">
+    <footer>
 
             <div class="container ">
                 <p class="pull-right "><a href="#">&nbsp; &nbsp; Back to top &nbsp; &nbsp;</a></p>

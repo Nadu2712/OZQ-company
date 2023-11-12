@@ -33,6 +33,44 @@
             align-content:center;
         }
     </style>
+    <style>
+        .navbar {
+            background-color: #333;
+            border: none;
+            border-radius: 0;
+        }
+
+        .navbar-brand {
+            color: #fff !important;
+        }
+
+        .navbar-nav > li > a {
+            color: #fff !important;
+        }
+
+        .navbar-nav > li.active {
+            background-color: #555;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 
 </head>
 <body>
@@ -56,8 +94,6 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="UserHome.aspx">Home</a> </li>
                             <li><a href="About.aspx">About</a> </li>
-                            <%--<li ><a href ="#">Contact US</a> </li>--%>
-                            <%--<li ><a href ="#">Blog-</a> </li>--%>
                             <li class="drodown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
                                 <ul class="dropdown-menu ">
@@ -105,12 +141,142 @@
         <br />
         <br />
 
+        <!---image slider---->
+        <div class="container center">
+            <h2>Shop Here !</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="imgslider/img1.jpeg" alt="img1" style="width: 100%; height: 250px;">
+                        <div class="carousel-caption">
+                            <h3>Women Shopping</h3>
+                            <p>
+                            </p>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="Products.aspx" role="button">Buy Now</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgslider/img1.jpeg" alt="img2" style="width: 100%; height: 250px;">
+                        <div class="carousel-caption">
+                            <h3>Electronic device shoppping</h3>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="Products.aspx" role="button">Buy Now</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgslider/img1.jpeg" alt="img3" style="width: 100%; height: 250px;">
+                        <div class="carousel-caption">
+                            <h3>Men Shopping</h3>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="Products.aspx" role="button">Buy Now</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span><span class="sr-only">Previous</span> </a><a class="right carousel-control"
+                    href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span> </a>
+            </div>
+        </div>
+        <!---image slider End---->
 
-        <asp:Label ID="lblSuccess" runat="server" CssClass="text-success"></asp:Label>
+        <!---Middle Contents start---->
+        <hr />
+        <div class="container center ">
+            <div class="row ">
+                <div class="col-lg-4">
+                    <img class="img-circle " src="imgslider/mobile.jpeg" alt="thumb" width="140" height="140" />
+                    <h2>Electronic Devices</h2>
+                    <p>
+                        Featuring a 15.49-cm (6.1) all-screen Liquid Retina LCD and a glass and aluminum
+                    design, the iPhone 11 is as beautiful as it gets. Also, the IP68 rating ensures
+                    that is water-resistant up to 2 meters for 30 minutes....
+                    </p>
+                    <p>
+                        <a class="btn btn-default " href="#" role="button">View More &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-circle " src="imgslider/footwear.jpeg" alt="thumb" width="140" height="140" />
+                    <h2>Footwear</h2>
+                    <p>
+                        Featuring a 15.49-cm (6.1) all-screen Liquid Retina LCD and a glass and aluminum
+                    design, the iPhone 11 is as beautiful as it gets. Also, the IP68 rating ensures
+                    that is water-resistant up to 2 meters for 30 minutes....
+                    </p>
+                    <p>
+                        <a class="btn btn-default " href="#" role="button">View More &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-circle " src="imgslider/clothes.jpeg" alt="thumb" width="140" height="140" />
+                    <h2>Clothings</h2>
+                    <p>
+                        Featuring a 15.49-cm (6.1) all-screen Liquid Retina LCD and a glass and aluminum
+                    design, the iPhone 11 is as beautiful as it gets. Also, the IP68 rating ensures
+                    that is water-resistant up to 2 meters for 30 minutes....
+                    </p>
+                    <p>
+                        <a class="btn btn-default " href="#" role="button">View More &raquo;</a>
+                    </p>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    BLACK FRIDAY DEAL
+                </div>
+                <div class="panel-body">
+                    <div class="row" style="padding-top: 50px">
+                        <asp:Repeater ID="rptrProducts" runat="server">
+                            <ItemTemplate>
+                                <div class="col-sm-3 col-md-3">
+                                    <a href="ProductView.aspx?PID=<%# Eval("PID") %>" style="text-decoration: none;">
+                                        <div class="thumbnail">
+                                            <img src="Images/ProductImages/<%# Eval("PID") %>/<%# Eval("ImageName") %><%# Eval("Extention") %>"
+                                                alt="<%# Eval("ImageName") %>" />
+                                            <div class="caption">
+                                                <div class="probrand">
+                                                    <%# Eval ("BrandName") %>
+                                                </div>
+                                                <div class="proName">
+                                                    <%# Eval ("PName") %>
+                                                </div>
+                                                <div class="proPrice">
+                                                    <span class="proOgPrice">
+                                                        <%# Eval ("PPrice","{0:0,00}") %>
+                                                    </span>
+                                                    <%# Eval ("PSelPrice","{0:c}") %>
+                                                    <span class="proPriceDiscount">(<%# Eval("DiscAmount","{0:0,00}") %>
+                                                    off) </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    Buy 50 mobiles and get a gift card
+                </div>
+            </div>
+        </div>
+    <!---Middle COntents End---->
 
         <!---Footer COntents Start here---->
         <hr />
-        <footer class="footer-pos">
+        <footer>
 
             <div class="container ">
                 <p class="pull-right "><a href="#">&nbsp; &nbsp; Back to top &nbsp; &nbsp;</a></p>
